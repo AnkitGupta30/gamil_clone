@@ -1,0 +1,35 @@
+.sidebar{
+    flex: 0.250;
+    padding-right: 20px;
+    max-width: 300px;
+    background-color: #F6F8FC;
+}
+
+.sidebar__compose{
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+    text-transform: capitalize !important;
+    color: #001D3B;
+    font-size: 14px;
+    background-color: #C2E7FF;
+    padding: 15px !important;
+    border-radius: 20px !important;
+    margin-left: 10px !important;
+    box-shadow: 0px 2px 5px -2px rgba(0, 0, 0, 0.75);
+}
+
+.sidebar__compose:hover{
+    box-shadow: 3px 3px 3px #111;
+    background-color: #C2E7FF;
+    color: #001D3B;
+}
+
+
+.sidebar__footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 20px;
+    margin-top: 20px;
+}
